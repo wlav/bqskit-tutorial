@@ -1,5 +1,5 @@
-from bqskit import Circuit
 from bqskit.compiler import Compiler
+from bqskit.ir import Circuit
 from bqskit.ir.gates import PauliZGate
 from bqskit.passes.synthesis import WalshDiagonalSynthesisPass as Decomp
 from bqskit.passes import ScanningGateRemovalPass as Scan
